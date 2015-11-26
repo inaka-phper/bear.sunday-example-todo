@@ -3,9 +3,13 @@
 namespace MyVendor\MyProject\Resource\App;
 
 use BEAR\Resource\ResourceObject;
+use BEAR\RepositoryModule\Annotation\Cacheable;
 use Ray\CakeDbModule\DatabaseInject;
 use Ray\CakeDbModule\Annotation\Transactional;
 
+/**
+ * @Cacheable
+ */
 class Todo extends ResourceObject
 {
     use DatabaseInject;

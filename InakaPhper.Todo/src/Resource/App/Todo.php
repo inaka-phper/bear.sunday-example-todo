@@ -47,4 +47,22 @@ class Todo extends ResourceObject
 
         return $this;
     }
+
+    /**
+     * @Transactional
+     * @param $id
+     * @param $todo
+     * @return $this
+     */
+    public function onPut($id, $todo)
+    {
+        $this->db->update(
+            'todo',
+            ['todo' => $todo],
+            ['id' => (int) $id]
+        );
+        $this->headers['location'] = '/todo/?id=' . $id;
+
+        return $this;
+    }
 }

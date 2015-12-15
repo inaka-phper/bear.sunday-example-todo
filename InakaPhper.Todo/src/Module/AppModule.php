@@ -38,6 +38,5 @@ class AppModule extends AbstractModule
 
         $dbConfig = 'sqlite:' . dirname(dirname(__DIR__)). '/var/db/post.sqlite3';
         $this->install(new AuraSqlModule($dbConfig));
-        $this->install(new AuraSqlQueryModule('sqlite'));
     }
 }

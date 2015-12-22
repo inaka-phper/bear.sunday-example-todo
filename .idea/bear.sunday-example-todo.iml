@@ -8,10 +8,14 @@
       <library name="PHARS">
         <CLASSES>
           <root url="phar://$MODULE_DIR$/InakaPhper.Todo/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/InakaPhper.Todo/my-vendor/Acme.Blog/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/InakaPhper.Todo/my-vendor/Acme.Blog/vendor/ray/compiler/composer.phar/" />
           <root url="phar://$MODULE_DIR$/InakaPhper.Todo/vendor/ray/compiler/composer.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/InakaPhper.Todo/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/InakaPhper.Todo/my-vendor/Acme.Blog/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/InakaPhper.Todo/my-vendor/Acme.Blog/vendor/ray/compiler/composer.phar/" />
           <root url="phar://$MODULE_DIR$/InakaPhper.Todo/vendor/ray/compiler/composer.phar/" />
         </SOURCES>
       </library>
